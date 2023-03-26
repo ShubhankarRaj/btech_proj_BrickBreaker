@@ -28,7 +28,6 @@ public class GameBlock extends Rectangle {
         this.width = width;
 
         try {
-            // pic = ImageIO.read(new File(s));
             pic = ImageIO.read(getClass().getResource("/resources/images/"+s));
         } catch (IOException e) {
             e.printStackTrace();

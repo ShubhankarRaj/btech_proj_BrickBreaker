@@ -9,6 +9,15 @@
     <version>1.0-SNAPSHOT</version>
     <build>
         <sourceDirectory>src</sourceDirectory>
+        <resources>
+            <!-- regular resource processsing for everything except logback.xml -->
+            <resource>
+                <directory>src</directory>
+                <includes>
+                    <include>**/*.png</include>
+                </includes>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
