@@ -35,6 +35,9 @@ At the time of my final year, i think we have only Java SE 5.
 6. At all times, the ball should be above the paddle. 
 7. Game is over when all the bricks are destroyed, or the ball goes below the paddle
 
+It was fun to see that a project that took us such a long time to work upon in those days, now takes only couple of 
+hours from inception to implementation.
+
 ## ENJOY!!
 
 
