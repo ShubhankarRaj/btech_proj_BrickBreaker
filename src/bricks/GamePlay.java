@@ -72,8 +72,6 @@ public class GamePlay extends JPanel implements KeyListener, ActionListener {
             g2d.setFont(new Font("verdana", Font.BOLD, 30));
             g2d.drawString("GAME OVER !!", getWidth()/2 - 200,getHeight()/2);
         }
-
-//        g.dispose();
     }
 
     public void update() {
