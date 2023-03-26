@@ -1,2 +1,5 @@
+build/
+out/
+**/.DS_Store
 .idea/
 bricks_btech_proj_re_created.iml
